@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #3F0F3F;
+
+}
+
+.sidebar header{
+    font-size: 22px;
+    color: antiquewhite;
+    text-align: center;
+    line-height: 70px;
+    background:#3A0A3A;
+    font-weight: bold;
+    user-select: none;
+    border-bottom: #9932CC;
+}
+
+.sidebar ul a{
+display: block;
+height: 100%;
+width: 100%;
+line-height: 65px;
+font-size: 20px;
+color: antiquewhite;
+padding-left: 35px;
+box-sizing: border-box;
+border-top: 1px solid 	#9932CC;
+border-bottom: 1px solid#9932CC;
+transition: .4s;
+}
+
+.main-sidebar .logout a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-sidebar .logout{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    border-top: 1px solid white;
+    width: 20%;
+}
+
+.main-sidebar .logout:hover{
+    transition: background-color 1s, padding 1s;
+    padding-left: 4em;
+    transition-timing-function: ease;
+    ;
+} 
+
+.content-box .main-title{
+    background-color: #3A0A3A;
+    width: auto;
+    font-weight: bold;
+    height: 57px;
+    color: white;
+    text-align: end;
+    
+    padding: 0.4em 1em;
+}
+
+.content-box{
+    width: auto;
+}
+
+ul li:hover a{
+    padding-left: 50px;
+}
+
+.sidebar ul a i{
+   padding-left: 16px;
+}
